@@ -219,10 +219,17 @@ import 'package:flutter/material.dart';
 import 'package:my_app/pages/bottom_navigation.dart';
 import 'package:my_app/pages/navigatorParams.dart';
 import 'package:my_app/pages/product.dart';
+import 'package:my_app/pages/keepAlive.dart';
 
 void main() {
   runApp(
-      // ProductHome()
-      // NavigatorHome()
-      MaterialApp(title: "app", home: Bottom_navigation()));
+    // ProductHome()
+    // NavigatorHome()
+    // Bottom_navigation()
+    // KeepAlive()
+    MaterialApp(
+      title: "app",
+      home: KeepAclive(),
+    ),
+  );
 }
