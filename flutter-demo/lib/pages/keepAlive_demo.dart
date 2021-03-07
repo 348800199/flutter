@@ -12,7 +12,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   //重写keepAlive 为ture ，就是可以有记忆功能了。
   bool get wantKeepAlive => true;
-  //声明一个内部方法，用来点击按钮后增加数量
+  //声明一个内部方法，用来点击按钮后增加数量'
   void _incrementCounter() {
     setState(
       () {
