@@ -17,8 +17,7 @@ class KeepAoveDemo extends StatefulWidget {
   _KeepAoveDemoState createState() => _KeepAoveDemoState();
 }
 
-class _KeepAoveDemoState extends State<KeepAoveDemo>
-    with SingleTickerProviderStateMixin {
+class _KeepAoveDemoState extends State<KeepAoveDemo> with SingleTickerProviderStateMixin {
   TabController _controller;
 
   @override
@@ -42,8 +41,8 @@ class _KeepAoveDemoState extends State<KeepAoveDemo>
           controller: _controller,
           tabs: [
             Tab(icon: Icon(Icons.ac_unit)),
-            Tab(icon: Icon(Icons.access_alarm_outlined)),
-            Tab(icon: Icon(Icons.ac_unit_rounded)),
+            Tab(icon: Icon(Icons.access_time)),
+            Tab(icon: Icon(Icons.account_balance)),
           ],
         ),
       ),
